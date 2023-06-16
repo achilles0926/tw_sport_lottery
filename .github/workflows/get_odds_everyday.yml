@@ -3,6 +3,7 @@ name: run mlb_odds_crawler.py
 on:
   schedule:
     - cron: '30 12 * * *' # 等同 UTC+8 20:30 Everyday
+  workflow_dispatch: {}
 
 jobs:
   build:
