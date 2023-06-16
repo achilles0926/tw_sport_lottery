@@ -1,8 +1,37 @@
-import json
+"""
+utc 8
+待解
+"""
+
 from datetime import datetime
 from traceback import format_exc
+import os
+
 import requests
 import pandas as pd
+
+
+def send_msg_to_LINE(msg):
+    """
+    """
+    # LINE Notify 權杖
+    try:
+        token = os.environ["LINE_API_TOKEN"]
+    except KeyError:
+        raise ValueError('The ENV LINE_API_TOKEN does not exist!')
+
+    # HTTP 標頭參數與資料
+    headers = {"Authorization": "Bearer " + token}
+    data = {'message': msg}
+
+    # 以 requests 發送 POST 請求
+    resp = requests.post(
+        url="https://notify-api.line.me/api/notify",
+        headers=headers,
+        data=data)
+
+    return resp.text
+
 
 def parse_resp_by_sport(sport_code=443):
     """
@@ -40,12 +69,34 @@ def parse_resp_by_sport(sport_code=443):
             continue
     df_output = pd.DataFrame(output)
     return df_output
- 
+
+
+def main():
+    try:
+        # crawler
+        df_output = parse_resp_by_sport(sport_code=443)
+        df_output['name_away'] = df_output['team_away'].apply(lambda x: x[1])
+        df_output['name_home'] = df_output['team_home'].apply(lambda x: x[1])
+        df_output = df_output.drop(['team_away', 'team_home'], axis=1)
+        df_output_new = df_output[['idx', 'sport', 'name_away', 'odd_away', 'odd_home', 'name_home', 'etl_dttm']]
+        df_output_new.to_csv(f'twsl_baseball_odds_new.csv', encoding='utf-8-sig', index=False)
+
+        # produce file
+        df_base = pd.read_csv('twsl_baseball_odds_base.csv', encoding='utf-8-sig')
+        df_output_done_all = pd.concat([df_base, df_output_new])
+        assert (df_base.shape[0] + df_output_new.shape[0]) == df_output_done_all.shape[0]
+        df_base.to_csv(f'twsl_baseball_odds_backup.csv', encoding='utf-8-sig', index=False)
+        df_output_done_all.to_csv(f'twsl_baseball_odds_base.csv', encoding='utf-8-sig', index=False)
+
+        msg = f"""爬取台灣運彩賠率資料成功: \n
+            原資料量:{df_base.shape[0]},\n
+            新資料量:{df_output_new.shape[0]},\n
+            總資料量: {df_output_done_all.shape[0]}"""
+        send_msg_to_LINE(msg)
+    except Exception:
+        msg = f'爬取台灣運彩賠率資料失敗: {format_exc()}'
+        send_msg_to_LINE(msg)
+
+
 if __name__ == '__main__':
-  df_output = parse_resp_by_sport(sport_code=443)
-  df_mlb = df_output[df_output['sport']=='美國職棒']
-  df_mlb['name_away'] = df_mlb['team_away'].apply(lambda x: x[1])
-  df_mlb['name_home'] = df_mlb['team_home'].apply(lambda x: x[1])
-  df_mlb = df_mlb.drop(['team_away', 'team_home'], axis=1)
-  df_mlb = df_mlb[['idx', 'sport', 'name_away', 'odd_away', 'odd_home', 'name_home', 'etl_dttm']]
-  df_mlb.to_csv('mlb_odds.csv', encoding='utf-8-sig')
+    main()
