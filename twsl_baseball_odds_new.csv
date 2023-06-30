@@ -1,9 +1,24 @@
 ﻿idx,sport,name_away,odd_away,odd_home,name_home,etl_dttm
-387095,美國職棒,San Diego Padres,1.40,2.30,Pittsburgh Pirates,2023-06-29 12:53:29
-387096,美國職棒,Cleveland Guardians,1.45,2.15,Kansas City Royals,2023-06-29 12:53:29
-387097,美國職棒,Chicago White Sox,2.05,1.50,Los Angeles Angels,2023-06-29 12:53:29
-387098,美國職棒,Miami Marlins,1.85,1.65,Boston Red Sox,2023-06-29 12:53:29
-387099,美國職棒,Milwaukee Brewers,2.45,1.35,New York Mets,2023-06-29 12:53:29
-387100,美國職棒,Houston Astros,1.65,1.85,St. Louis Cardinals,2023-06-29 12:53:29
-387101,美國職棒,Philadelphia Phillies,1.65,1.85,Chicago Cubs,2023-06-29 12:53:29
-387102,美國職棒,Los Angeles Dodgers,1.30,2.60,Colorado Rockies,2023-06-29 12:53:29
+387184,太平洋聯盟,Tohoku Rakuten Golden Eagles,1.70,1.80,Chiba Lotte Marines,2023-06-30 05:32:16
+387185,太平洋聯盟,Orix Buffaloes,1.50,2.05,Hokkaido Nippon-Ham Fighters,2023-06-30 05:32:16
+387186,太平洋聯盟,Fukuoka Softbank Hawks,1.45,2.15,Saitama Seibu Lions,2023-06-30 05:32:16
+387187,中央聯盟,Hiroshima Toyo Carp,1.80,1.70,Tokyo Yakult Swallows,2023-06-30 05:32:16
+387188,中央聯盟,Chunichi Dragons,2.30,1.40,Yokohama Dena Baystars,2023-06-30 05:32:16
+387189,中央聯盟,Hanshin Tigers,2.15,1.45,Yomiuri Giants,2023-06-30 05:32:16
+387203,韓國職棒,Kia Tigers,2.05,1.50,LG Twins,2023-06-30 05:32:16
+387204,韓國職棒,Doosan Bears,1.70,1.80,Lotte Giants,2023-06-30 05:32:16
+387205,韓國職棒,Hanwha Eagles,1.55,1.95,Samsung Lions,2023-06-30 05:32:16
+387206,韓國職棒,NC Dinos,1.90,1.60,KT Wiz,2023-06-30 05:32:16
+387207,韓國職棒,SSG Landers,1.60,1.90,Kiwoom Heroes,2023-06-30 05:32:16
+387212,美國職棒,Cleveland Guardians,2.05,1.50,Chicago Cubs,2023-06-30 05:32:16
+387221,美國職棒,San Diego Padres,1.55,1.95,Cincinnati Reds,2023-06-30 05:32:16
+387213,美國職棒,Minnesota Twins,1.80,1.70,Baltimore Orioles,2023-06-30 05:32:16
+387214,美國職棒,Milwaukee Brewers,1.55,1.95,Pittsburgh Pirates,2023-06-30 05:32:16
+387215,美國職棒,Boston Red Sox,1.95,1.55,Toronto Blue Jays,2023-06-30 05:32:16
+387222,美國職棒,San Francisco Giants,1.70,1.80,New York Mets,2023-06-30 05:32:16
+387223,美國職棒,Houston Astros,2.15,1.45,Texas Rangers,2023-06-30 05:32:16
+387224,美國職棒,Detroit Tigers,1.70,1.80,Colorado Rockies,2023-06-30 05:32:16
+387225,美國職棒,Los Angeles Dodgers,1.35,2.45,Kansas City Royals,2023-06-30 05:32:16
+387216,美國職棒,New York Yankees,1.80,1.70,St. Louis Cardinals,2023-06-30 05:32:16
+387217,美國職棒,Arizona Diamondbacks,2.05,1.50,Los Angeles Angels,2023-06-30 05:32:16
+387218,美國職棒,Tampa Bay Rays,1.60,1.90,Seattle Mariners,2023-06-30 05:32:16
