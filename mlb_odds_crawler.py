@@ -44,29 +44,22 @@ def parse_resp_by_sport(sport_code=443):
     data = resp.json()
     output = []
     for game_dict in data:
-        try:
-            idx = game_dict['id']
-            sport = game_dict['ln'][0]
-            team_away = game_dict['atn']
-            team_home = game_dict['htn']
-            odd_info = game_dict['ms'][0]['cs'][0]
-            odd_away = odd_info[0]['o']
-            odd_home = odd_info[1]['o']
-            output.append({
-                'idx': idx,
-                'sport': sport,
-                'team_away': team_away,
-                'team_home': team_home,
-                'odd_away': odd_away,
-                'odd_home': odd_home,
-                'etl_dttm': etl_dttm
-            })
-        except IndexError:
-            print(sport)
-            continue
-        except KeyError:
-            print(sport)
-            continue
+        idx = game_dict['id']
+        sport = game_dict['ln'][0]
+        team_away = game_dict['atn']
+        team_home = game_dict['htn']
+        odd_info = game_dict['ms'][0]['cs'][0]
+        odd_away = odd_info[0]['o']
+        odd_home = odd_info[1]['o']
+        output.append({
+            'idx': idx,
+            'sport': sport,
+            'team_away': team_away,
+            'team_home': team_home,
+            'odd_away': odd_away,
+            'odd_home': odd_home,
+            'etl_dttm': etl_dttm
+        })
     df_output = pd.DataFrame(output)
     return df_output
 
