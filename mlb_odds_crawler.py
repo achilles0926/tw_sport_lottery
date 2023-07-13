@@ -79,7 +79,7 @@ def main():
         if len(df_output) == 0:
             msg = '本時間點爬無賠率資料'
             send_msg_to_LINE(msg)
-            reutrn 
+            return 
         
         df_output['name_away'] = df_output['team_away'].apply(lambda x: x[1])
         df_output['name_home'] = df_output['team_home'].apply(lambda x: x[1])
