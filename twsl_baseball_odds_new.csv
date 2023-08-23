@@ -1,24 +1,14 @@
 ﻿idx,sport,name_away,odd_away,odd_home,name_home,etl_dttm
-392985,太平洋聯盟,Fukuoka Softbank Hawks,1.50,2.05,Chiba Lotte Marines,2023-08-23 05:31:03
-392986,太平洋聯盟,Tohoku Rakuten Golden Eagles,1.85,1.65,Hokkaido Nippon-Ham Fighters,2023-08-23 05:31:03
-392987,太平洋聯盟,Orix Buffaloes,1.40,2.30,Saitama Seibu Lions,2023-08-23 05:31:03
-392988,中央聯盟,Chunichi Dragons,2.05,1.50,Hanshin Tigers,2023-08-23 05:31:03
-392989,中央聯盟,Hiroshima Toyo Carp,1.65,1.85,Yokohama Dena Baystars,2023-08-23 05:31:03
-392990,中央聯盟,Tokyo Yakult Swallows,2.15,1.45,Yomiuri Giants,2023-08-23 05:31:03
-392991,韓國職棒,Kia Tigers,1.75,1.75,KT Wiz,2023-08-23 05:31:03
-392992,韓國職棒,Doosan Bears,1.35,2.45,Kiwoom Heroes,2023-08-23 05:31:03
-392993,韓國職棒,Samsung Lions,1.55,1.95,Hanwha Eagles,2023-08-23 05:31:03
-392996,韓國職棒,NC Dinos,1.90,1.60,SSG Landers,2023-08-23 05:31:03
-392997,韓國職棒,Lotte Giants,1.95,1.55,LG Twins,2023-08-23 05:31:03
-393004,美國職棒,Chicago Cubs,1.85,1.65,Detroit Tigers,2023-08-23 05:31:03
-393005,美國職棒,Seattle Mariners,1.35,2.45,Chicago White Sox,2023-08-23 05:31:03
-393006,美國職棒,Minnesota Twins,1.95,1.55,Milwaukee Brewers,2023-08-23 05:31:03
-393007,美國職棒,San Francisco Giants,1.90,1.60,Philadelphia Phillies,2023-08-23 05:31:03
-393008,美國職棒,Cincinnati Reds,2.15,1.45,Los Angeles Angels,2023-08-23 05:31:03
-393009,美國職棒,Miami Marlins,1.85,1.65,San Diego Padres,2023-08-23 05:31:03
-393010,美國職棒,Colorado Rockies,2.85,1.25,Tampa Bay Rays,2023-08-23 05:31:03
-393011,美國職棒,Washington Nationals,1.95,1.55,New York Yankees,2023-08-23 05:31:03
-393012,美國職棒,Toronto Blue Jays,1.65,1.85,Baltimore Orioles,2023-08-23 05:31:03
-393013,美國職棒,Los Angeles Dodgers,1.35,2.45,Cleveland Guardians,2023-08-23 05:31:03
-393014,美國職棒,New York Mets,2.45,1.35,Atlanta Braves,2023-08-23 05:31:03
-393015,美國職棒,Boston Red Sox,1.80,1.70,Houston Astros,2023-08-23 05:31:03
+393021,美國職棒,St. Louis Cardinals,1.70,1.80,Pittsburgh Pirates,2023-08-23 12:45:48
+393004,美國職棒,Chicago Cubs,1.85,1.65,Detroit Tigers,2023-08-23 12:45:48
+393005,美國職棒,Seattle Mariners,1.30,2.60,Chicago White Sox,2023-08-23 12:45:48
+393006,美國職棒,Minnesota Twins,1.95,1.55,Milwaukee Brewers,2023-08-23 12:45:48
+393007,美國職棒,San Francisco Giants,1.90,1.60,Philadelphia Phillies,2023-08-23 12:45:48
+393008,美國職棒,Cincinnati Reds,2.15,1.45,Los Angeles Angels,2023-08-23 12:45:48
+393009,美國職棒,Miami Marlins,1.85,1.65,San Diego Padres,2023-08-23 12:45:48
+393010,美國職棒,Colorado Rockies,2.85,1.25,Tampa Bay Rays,2023-08-23 12:45:48
+393011,美國職棒,Washington Nationals,1.95,1.55,New York Yankees,2023-08-23 12:45:48
+393012,美國職棒,Toronto Blue Jays,1.65,1.85,Baltimore Orioles,2023-08-23 12:45:48
+393013,美國職棒,Los Angeles Dodgers,1.30,2.60,Cleveland Guardians,2023-08-23 12:45:48
+393014,美國職棒,New York Mets,2.45,1.35,Atlanta Braves,2023-08-23 12:45:48
+393015,美國職棒,Boston Red Sox,1.85,1.65,Houston Astros,2023-08-23 12:45:48
