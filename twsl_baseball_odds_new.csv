@@ -1,21 +1,12 @@
 ﻿idx,sport,name_away,odd_away,odd_home,name_home,etl_dttm
-394047,太平洋聯盟,Hokkaido Nippon-Ham Fighters,1.85,1.65,Chiba Lotte Marines,2023-08-30 05:30:57
-394048,太平洋聯盟,Orix Buffaloes,1.90,1.60,Fukuoka Softbank Hawks,2023-08-30 05:30:57
-394049,太平洋聯盟,Saitama Seibu Lions,1.80,1.70,Tohoku Rakuten Golden Eagles,2023-08-30 05:30:57
-394050,中央聯盟,Tokyo Yakult Swallows,1.85,1.65,Chunichi Dragons,2023-08-30 05:30:57
-394051,中央聯盟,Yokohama Dena Baystars,1.85,1.65,Hanshin Tigers,2023-08-30 05:30:57
-394052,中央聯盟,Hiroshima Toyo Carp,1.95,1.55,Yomiuri Giants,2023-08-30 05:30:57
-394062,韓國職棒,Doosan Bears,2.05,1.50,LG Twins,2023-08-30 05:30:57
-394063,韓國職棒,Kiwoom Heroes,2.85,1.25,SSG Landers,2023-08-30 05:30:57
-394064,韓國職棒,NC Dinos,1.95,1.55,Kia Tigers,2023-08-30 05:30:57
-394065,韓國職棒,Lotte Giants,1.50,2.05,Hanwha Eagles,2023-08-30 05:30:57
-394066,韓國職棒,Samsung Lions,2.60,1.30,KT Wiz,2023-08-30 05:30:57
-394067,美國職棒,Chicago White Sox,2.15,1.45,Baltimore Orioles,2023-08-30 05:30:57
-394068,美國職棒,Cleveland Guardians,2.15,1.45,Minnesota Twins,2023-08-30 05:30:57
-394069,美國職棒,San Diego Padres,1.80,1.70,St. Louis Cardinals,2023-08-30 05:30:57
-394070,美國職棒,Milwaukee Brewers,1.70,1.80,Chicago Cubs,2023-08-30 05:30:57
-394071,美國職棒,Washington Nationals,2.70,1.28,Toronto Blue Jays,2023-08-30 05:30:57
-394072,美國職棒,Cincinnati Reds,2.15,1.45,San Francisco Giants,2023-08-30 05:30:57
-394073,美國職棒,Houston Astros,1.55,1.95,Boston Red Sox,2023-08-30 05:30:57
-394074,美國職棒,Oakland Athletics,2.85,1.25,Seattle Mariners,2023-08-30 05:30:57
-394075,美國職棒,Tampa Bay Rays,1.70,1.80,Miami Marlins,2023-08-30 05:30:57
+394067,美國職棒,Chicago White Sox,2.30,1.40,Baltimore Orioles,2023-08-30 12:46:21
+394092,美國職棒,Los Angeles Angels,2.30,1.40,Philadelphia Phillies,2023-08-30 12:46:21
+394068,美國職棒,Cleveland Guardians,2.15,1.45,Minnesota Twins,2023-08-30 12:46:21
+394069,美國職棒,San Diego Padres,1.80,1.70,St. Louis Cardinals,2023-08-30 12:46:21
+394070,美國職棒,Milwaukee Brewers,1.65,1.85,Chicago Cubs,2023-08-30 12:46:21
+394071,美國職棒,Washington Nationals,2.70,1.28,Toronto Blue Jays,2023-08-30 12:46:21
+394072,美國職棒,Cincinnati Reds,2.15,1.45,San Francisco Giants,2023-08-30 12:46:21
+394073,美國職棒,Houston Astros,1.55,1.95,Boston Red Sox,2023-08-30 12:46:21
+394074,美國職棒,Oakland Athletics,3.00,1.22,Seattle Mariners,2023-08-30 12:46:21
+394075,美國職棒,Tampa Bay Rays,1.65,1.85,Miami Marlins,2023-08-30 12:46:21
+394093,美國職棒,Texas Rangers,1.50,2.05,New York Mets,2023-08-30 12:46:21
