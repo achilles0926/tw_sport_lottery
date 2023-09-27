@@ -1,9 +1,13 @@
 ﻿idx,sport,name_away,odd_away,odd_home,name_home,etl_dttm
-397419,美國職棒,Cincinnati Reds,1.80,1.70,Cleveland Guardians,2023-09-26 12:48:14
-397441,美國職棒,New York Yankees,2.15,1.45,Toronto Blue Jays,2023-09-26 12:48:14
-397420,美國職棒,Tampa Bay Rays,1.55,1.95,Boston Red Sox,2023-09-26 12:48:14
-397421,美國職棒,Miami Marlins,1.60,1.90,New York Mets,2023-09-26 12:48:14
-397422,美國職棒,Chicago Cubs,1.95,1.55,Atlanta Braves,2023-09-26 12:48:14
-397442,美國職棒,St. Louis Cardinals,2.15,1.45,Milwaukee Brewers,2023-09-26 12:48:14
-397424,美國職棒,San Diego Padres,1.65,1.85,San Francisco Giants,2023-09-26 12:48:14
-397423,美國職棒,Houston Astros,1.90,1.60,Seattle Mariners,2023-09-26 12:48:14
+397492,太平洋聯盟,Chiba Lotte Marines,1.80,1.70,Hokkaido Nippon-Ham Fighters,2023-09-27 05:31:02
+397493,太平洋聯盟,Fukuoka Softbank Hawks,1.85,1.65,Orix Buffaloes,2023-09-27 05:31:02
+397494,太平洋聯盟,Tohoku Rakuten Golden Eagles,1.50,2.05,Saitama Seibu Lions,2023-09-27 05:31:02
+397507,美國職棒,Cincinnati Reds,1.90,1.60,Cleveland Guardians,2023-09-27 05:31:02
+397508,美國職棒,Tampa Bay Rays,1.65,1.85,Boston Red Sox,2023-09-27 05:31:02
+397509,美國職棒,Washington Nationals,2.85,1.25,Baltimore Orioles,2023-09-27 05:31:02
+397510,美國職棒,New York Yankees,1.75,1.75,Toronto Blue Jays,2023-09-27 05:31:02
+397511,美國職棒,Oakland Athletics,2.85,1.25,Minnesota Twins,2023-09-27 05:31:02
+397512,美國職棒,Los Angeles Dodgers,1.35,2.45,Colorado Rockies,2023-09-27 05:31:02
+397513,美國職棒,Texas Rangers,1.45,2.15,Los Angeles Angels,2023-09-27 05:31:02
+397514,美國職棒,Houston Astros,1.65,1.85,Seattle Mariners,2023-09-27 05:31:02
+397515,美國職棒,San Diego Padres,1.75,1.75,San Francisco Giants,2023-09-27 05:31:02
